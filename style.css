@@ -5,8 +5,8 @@
 }
 
 body{
-    font-family: "Poppins", sans-serif;
-    color: #5f6368;
+    font-family: "Montserrat", sans-serif;
+    
 }
 
 nav{
@@ -15,8 +15,9 @@ nav{
     background-color: white;
 }
 
-nav div{
+nav{
     display: flex;
+    padding: 0px 150px;
 }
 nav p{
     font-size: 14px;
@@ -27,12 +28,12 @@ nav img{
     width: 58px;
     height: 28px;
     margin-top: 12px;
-    margin-left: 145px;
 }
 #icons{
     font-size: 20px;
-    position: absolute;
+    /* position: absolute; */
     right: 170px;
+    margin-left: auto;
 }
 
 #icons i{
@@ -65,7 +66,7 @@ nav img{
 }
 
 .one div{
-    border: solid 1.5px black;
+    border: solid 2px black;
     border-radius: 5px;
     width: 150px;
     padding: 7px 9px;
@@ -136,66 +137,210 @@ nav img{
 
 #color{
     background-color: #f5f3ef;
+    width: 100%;
+}
+
+#head{
+    color:#4b4e53 ;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .two-div{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.three .bold{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.three .learn{
+    width: fit-content;
+    text-align: center;
+    border: black solid 2px;
+    font-weight: 400;
+    padding: 7px 14px;
+    margin: 30px auto;
+    color: black;
+    border-radius: 5px;
 }
 .div-two{
-    width:690px ;
-    height: 900px;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
-    position: relative;
+
+}
+.div-two p{
+    text-align: center;
+    margin-top: 20px;
+    color:#313133;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .div-two img{
     width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 0px 0px 20px 20px;
+    /* position: absolute;
+    bottom: 0px; */
+}
+
+
+
+#gwatch{
+    object-fit: fill;
+}
+
+#buds{
+    object-fit: contain;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 150px;
+    gap: 20px;
+}
+/* 
+.fold{
     height: 700px;
-    object-fit: cover;
-    border-radius: 0px 0px 20px 20px;
-    position: absolute;
-    bottom: 0px;
-}
+} */
 
-.two-div,.fold,.battery{
-    width: 1400px;
-    margin: 10px auto;
+.fold{
     border-radius: 20px;
-    
-
+    text-align: center;
+    height: 700px;
+    background-size: cover;
+    color: #313133;
+    background-image: url(https://lh3.googleusercontent.com/Ku5NFwaeadpqXY4LwArbhfm3APBH4SuVHazKVzuc6g7dk95Vp1unkmu4KQerzOvwt2-lifpZWUgYMNuawnssUfwJYaJNkjOZO6Q=rw-e365-w3000);
+}
+.fold>div{
+    padding: 100px 0 0 0;
 }
 
 
-
-.fold img{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 0px 0px 20px 20px;
-    padding: 0px;
-    margin: 0px;
-}
 
 .battery{
     display: flex;
+    border-radius: 20px;
+    background-image: url(https://lh3.googleusercontent.com/f91r4LmoJn3S5NgUXxiOiizPwhrUFrJ-ZE08HO8Uk1YkqdMQcr7NYM69OB6ntzI7yL4POhH0eX_tbuyO6hu6CiBbcaRYtU_Crj7W=rw-e365-w3000);
+    background-size: cover;
     height: 700px;
+    color: #313133;
 }
 
-.bat1{
-    width: 40%;
+
+#bat-learn{
+    margin: 30px 0px;
 }
 
-.bat2{
-    width: 60%;
+.bat{
+    margin: auto 50px;
 }
 
-.bat2 img{
-    width: 100%;
+.ad{
+    width: 1300px;
     height: 500px;
-    object-fit: cover;
-    border-radius: 0px 20px 20px 0px;
-    margin-left: 0px;
-    margin-right: 100px;
-    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
 }
 
+.ad-item{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.ad-item img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+button{
+    text-align: center;
+    border: black solid ;
+    font-weight: 600;
+    padding: 7px 14px;
+    color: black;
+    border-radius: 5px;    
+    color: #313133;
+    
+}
+
+.ad-item a{
+    text-decoration: none;
+    color: #098dfb;
+}
+
+.ad-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #f8f9fa;
+    width: 1400px;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+.ad-bar p{
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+    margin: 20px 0px;
+    color: #313133;
+}
+
+.foot{
+    display: flex;
+    justify-content: right;
+    margin: 0px auto;
+    padding: 50px 150px;
+}
+
+.foot-con{
+    margin: 20px 20px;
+    line-height: 3;
+}
+
+footer div{
+    display: flex;
+    border-top: #4b4e53 solid .5px;
+    padding: 5px;
+}
+
+.contents{
+    width: 1300px;
+    margin: 0px auto;
+}
+#insta{
+    margin-left: 20px;
+}
+
+.contents i{
+    padding: 5px 15px;
+    color: #4b4e53;
+}
+
+.contents img{
+    margin-left: 400px;
+    height: 20px;
+    padding: 5px 10px;
+}
+
+.contents p{
+    font-size: 12px;
+    padding: 5px 10px;
+}
