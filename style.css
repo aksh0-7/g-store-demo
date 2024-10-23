@@ -24,6 +24,20 @@ nav p{
     margin: 18px 7px;
     color: #5f6368;
 }
+
+#icons i{
+   color:#5f6368;
+}
+nav p:hover{
+    color:#098dfb;
+    cursor: pointer;
+}
+
+#icons i:hover{
+    color: #098dfb;
+    cursor: pointer;
+}
+
 nav img{
     width: 58px;
     height: 28px;
@@ -230,7 +244,10 @@ nav img{
 }
 
 
-
+.hov:hover{
+    cursor: pointer;
+    background-color:#d6d7d858;
+}
 .battery{
     display: flex;
     border-radius: 20px;
@@ -343,4 +360,17 @@ footer div{
 .contents p{
     font-size: 12px;
     padding: 5px 10px;
+}
+
+
+footer i:hover{
+    cursor: pointer;
+}
+
+footer p:hover{
+    cursor: pointer;
+}
+
+.foot-con:hover{
+    cursor: pointer;
 }
